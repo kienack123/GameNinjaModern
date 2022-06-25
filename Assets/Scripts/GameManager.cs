@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject Player;
 
+    [SerializeField] private AudioSource AudioBackground;
 
     public static GameManager instance { get; set; }
     private void Awake()
@@ -36,5 +37,11 @@ public class GameManager : MonoBehaviour
         Destroy(Player);
         Time.timeScale = 0;
 
+    }
+
+
+    public void turnOffSound()
+    {
+        AudioBackground.gameObject.SetActive(false);
     }
 }

@@ -80,15 +80,15 @@ public class PlayerController : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Gun.gameObject.SetActive(true);
+        //if (Input.GetKeyDown(KeyCode.Q))
+        //{
+        //    Gun.gameObject.SetActive(true);
 
-        }
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            Gun.gameObject.SetActive(false);
-        }
+        //}
+        //else if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //    Gun.gameObject.SetActive(false);
+        //}
 
 
 
